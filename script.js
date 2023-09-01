@@ -28,15 +28,45 @@
 // console.log(`Result 2: ${a} ${operator} ${b} = ${sub}`);
 
 
-function sumtwonumber(x,y){
+// function sumtwonumber(x,y){
+//     return x+y;
+// }
+
+// var resultarr = [];
+
+// for(let i=0;i<10;i++){
+//     let res=sumtwonumber(i,2*i);
+//     resultarr.push(res);
+// }
+
+// console.log(resultarr);
+
+function multiply(x,y){
     return x+y;
 }
 
-var resultarr = [];
 
-for(let i=0;i<10;i++){
-    let res=sumtwonumber(i,2*i);
-    resultarr.push(res);
+var arr = [];
+
+for (let i=0;i<10;i++){
+    let c= i*5;
+    let d =i*i;
+    let sum=multiply(c,d);
+    arr.push(sum);
+
 }
 
-console.log(resultarr);
+console.log(arr);
+
+
+
+
+
+
+
+
+
+
+
+
+
